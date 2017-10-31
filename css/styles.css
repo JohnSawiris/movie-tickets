@@ -6,10 +6,16 @@
 .hide {
   display: none;
 }
+.center {
+  margin: 0 auto;
+}
 ul#movies-list li{
   list-style: none;
 }
 ul#movies-list li:hover {
   cursor: pointer;
   color: #888;
+}
+div.card {
+  padding: 3rem 2rem;
 }
