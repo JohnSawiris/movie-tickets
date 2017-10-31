@@ -1,21 +1,61 @@
+html {
+  height: 100%;
+}
+
+body {
+  background-image: url('../images/redcurtain.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100%;
+  color: #e2b21f;
+  background-color: black;
+}
+
+.jumbotron {
+  background: transparent;
+}
+
 .movie-image {
   width: 30%;
   float: left;
   margin-right: 1em;
 }
+
 .hide {
   display: none;
+}
+
+form.col-md-10 {
+  margin: 2em;
 }
 .center {
   margin: 0 auto;
 }
+
 ul#movies-list li{
   list-style: none;
+  font-size: 1.3em;
+  transition: all 0.4s ease-in-out;
 }
+
 ul#movies-list li:hover {
   cursor: pointer;
-  color: #888;
+  color: #fcdb64;
+  text-decoration: underline;
+}
+h4#ticket-title-output {
+  margin-top: 2em;
 }
 div.card {
+  border: none;
   padding: 3rem 2rem;
+}
+
+input#name, input#age, select#movie-time {
+  text-align: center;
+  background: transparent;
+  border: 1px solid #e2b21f;
+  color: #e2b21f;
+  font-size: 20px;
 }
