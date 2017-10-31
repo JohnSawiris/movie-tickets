@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Movie Tickets</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+    <script
+    src="https://code.jquery.com/jquery-2.2.4.min.js"
+    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron text-center">
+        <h1 class="display-2">Movie Time</h1>
+        <p class="lead">on Hollywood Boulevard</p>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="row">
+            <h4>Now Showing!</h4>
+          </div>
+          <div class="row">
+            <ul id="movies-list">
+              <li class="movie-title" value="0">War Dogs</li>
+              <li class="movie-title" value="1">The Big Short</li>
+              <li class="movie-title" value="2">Ice Age 2: The Meltdown</li>
+              <li class="movie-title" value="3">The Notebook</li>
+              <li class="movie-title" value="4">Dumb &amp; Dumber</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="row">
+            <div class="movie-info">
+              <img src="" alt="" class="movie-image">
+              <h4 id="movie-title-display"></h4>
+              <p id="movie-desc-display"></p>
+
+            </div>
+          </div>
+          <div class="row">
+            <form class="">
+              <div class="form-group">
+                 <label for="name">Name:</label>
+                 <input type="text" class="form-control" id="name" placeholder="Enter Name">
+              </div>
+              <div class="form-group">
+                 <label for="age">Age:</label>
+                 <input type="number" class="form-control" id="age" placeholder="Enter Age">
+              </div>
+              <div class="form-group">
+                 <label for="age">Age:</label>
+                 <select class="" name="">
+                   <option value="0">10:15 AM</option>
+                   <option value="1">12:30 PM</option>
+                   <option value="2">3:00 PM</option>
+                   <option value="3">6:45 PM</option>
+                   <option value="4">9:30 PM</option>
+                 </select>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
