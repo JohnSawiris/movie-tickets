@@ -3,3 +3,13 @@
   float: left;
   margin-right: 1em;
 }
+.hide {
+  display: none;
+}
+ul#movies-list li{
+  list-style: none;
+}
+ul#movies-list li:hover {
+  cursor: pointer;
+  color: #888;
+}
